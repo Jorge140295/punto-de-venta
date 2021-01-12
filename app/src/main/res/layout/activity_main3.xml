@@ -27,74 +27,91 @@
             android:textSize="36sp"
             android:textStyle="bold|italic" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName3"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:backgroundTint="#03FD0D"
-            android:ems="10"
-            android:hint="@string/nombre"
-            android:inputType="textPersonName"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:backgroundTint="#02FB0C"
-            android:ems="10"
-            android:hint="@string/codigo"
-            android:inputType="textPersonName"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editTextNumberDecimal3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:backgroundTint="#03FD0D"
-            android:ems="10"
-            android:hint="@string/precio_pro"
-            android:inputType="numberDecimal"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/editTextTextPersonName3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#03FD0D"
+                    android:ems="10"
+                    android:hint="@string/nombre"
+                    android:inputType="textPersonName"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/editTextNumberDecimal4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:backgroundTint="#03FB0D"
-            android:ems="10"
-            android:hint="@string/precio_uni"
-            android:inputType="numberDecimal"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/editTextTextPersonName5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#02FB0C"
+                    android:ems="10"
+                    android:hint="@string/codigo"
+                    android:inputType="textPersonName"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:background="#FD1403"
-            android:onClick="menu"
-            android:text="@string/btn3"
-            android:textColor="#070707"
-            android:textSize="36sp" />
+                <EditText
+                    android:id="@+id/editTextNumberDecimal3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#03FD0D"
+                    android:ems="10"
+                    android:hint="@string/precio_pro"
+                    android:inputType="numberDecimal"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:background="#FB1302"
-            android:text="@string/btn4"
-            android:textColor="#0C0C0C"
-            android:textSize="36sp" />
+                <EditText
+                    android:id="@+id/editTextNumberDecimal4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#03FB0D"
+                    android:ems="10"
+                    android:hint="@string/precio_uni"
+                    android:inputType="numberDecimal"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:background="#FD1403"
+                    android:onClick="menu"
+                    android:text="@string/btn3"
+                    android:textColor="#070707"
+                    android:textSize="36sp" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:background="#FB1302"
+                    android:text="@string/btn4"
+                    android:textColor="#0C0C0C"
+                    android:textSize="36sp" />
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
