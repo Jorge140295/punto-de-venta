@@ -39,7 +39,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/txt1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -51,19 +51,19 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/txt2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:backgroundTint="#03FB0D"
                     android:ems="10"
                     android:hint="@string/codigo"
-                    android:inputType="textPersonName"
+                    android:inputType="number"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextNumberDecimal"
+                    android:id="@+id/txt3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -75,7 +75,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextNumberDecimal2"
+                    android:id="@+id/txt4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -100,6 +100,19 @@
                     android:textAlignment="center"
                     android:textAllCaps="true"
                     android:textColorHint="#090909"
+                    android:textSize="36sp"
+                    android:textStyle="bold|italic" />
+
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:backgroundTint="#FD1504"
+                    android:onClick="mostrar"
+                    android:text="MOSTRAR"
+                    android:textAllCaps="true"
                     android:textSize="36sp"
                     android:textStyle="bold|italic" />
 

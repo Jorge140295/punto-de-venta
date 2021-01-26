@@ -37,7 +37,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName3"
+                    android:id="@+id/txt1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -49,19 +49,19 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName5"
+                    android:id="@+id/txt2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:backgroundTint="#02FB0C"
                     android:ems="10"
                     android:hint="@string/codigo"
-                    android:inputType="textPersonName"
+                    android:inputType="number"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextNumberDecimal3"
+                    android:id="@+id/txt3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -73,7 +73,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/editTextNumberDecimal4"
+                    android:id="@+id/txt4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -101,6 +101,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="30dp"
                     android:background="#FB1302"
+                    android:onClick="buscar"
                     android:text="@string/btn4"
                     android:textColor="#0C0C0C"
                     android:textSize="36sp" />
